@@ -1,0 +1,40 @@
+.du{
+    height: 320px;
+}
+.ve{
+    font-size: 26px;
+    margin-left: 20px;
+}
+.ne ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.yi{
+    color: aqua;
+}
+.ne ul li{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.pi{
+    background-color: #f50bd6;
+    color: aqua;
+}
+.la{
+    margin-top: 20px;
+}
+.lo{
+    color: #f50bd6;
+    background-color: white;
+}
+.ti{
+    margin-top: 6px;
+}
+.to{
+    margin-top: 6px;
+}
+.fo{
+    color:aqua;
+}

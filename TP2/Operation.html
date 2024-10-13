@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/operation.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/operation.js"></script>
+    <title>Operation</title>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="navbar col-md-10" >
+                <h1 class="logo">KEYCE_COURS HTML</h1>
+                <ul>
+                    <li><a class="lien" href="Index.html">ACCUEIL</a></li>
+                    <li><a class="lien" href="Javascript.html">JAVASCRIPT SERVICE</a></li>
+                    <li><a class="lien" href="Services.html">SERVICES</a></li>
+                    <li><a class="lien" href="Inscription.html">INSCRIPTION</a></li>
+                    <li><a class="lien" href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </header>
+    <main>
+        <div class="row du">
+            <div class="col-md-4 pi">
+                <h1 class="ve">Liste des TP JavaScript</h1>
+                <div class="ne">
+                <ul>
+                    <li><a class="yi" href="Addition.html">Addition</a></li>
+                    <li><a class="yi" href="Operation.html">Toutes les opérations</a></li>
+                    <li><a class="yi"  href="Tp3.html">Tp3</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label>Nombre 1</label>
+                <input type="number" class="form-control" id="nombre1">
+                <label>Nombre 2</label>
+                <input type="number" class="form-control" id="nombre2">
+                <label class="vo">Choix de l'operation</label>
+                <select id="Choix" class="va">
+                    <option value="0">Choisir une operation</option>
+                    <option value="1">Addition</option>
+                    <option value="2">Soustraction</option>
+                    <option value="3">Multiplication</option>
+                    <option value="4">Division</option>
+                </select>
+                <div class="row">
+                    <button type="submit" class="btn btn-info la" onclick="calcul()" >CALCULER</button>
+                    <button type="reset"  class="btn btn-info la" >ANNULER</button>
+                </div>
+            </div>
+
+            <div class="col-md-2 lo">
+                <label id="result">Resultat</label>
+                <input type="text" id="resultat"  class="form-control">
+            </div>
+        </div>
+    </main>
+    <div class="row conta">
+        <div class="col-md-4"  >
+            CONTACT:693875857
+        </div>
+        <div class="col-md-4"  >
+            <ul id="listicones">
+                <li><a target="_blank" href="https://www.facebook.com"><img class="icones" src="images/facebook.png" alt="facebook"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com"><img class="icones" src="images/instagram.png" alt="instagram"></a></li>
+                <li><a target="_blank" href="https://www.twitter.com"><img class="icones" src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div>
+        <div class="col-md-4" >
+            LOCALISATION:Bonapriso Avenue de Gaulle
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/*
+Auteur : Lembe
+Objet : style de la page formulaire
+date : 04.05.2024
+*/
+
+
+* {box-sizing: border-box;}
+
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: aqua;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid aqua;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: aqua;
+  color: #f50bd6;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+h2{
+    margin-left: 450px;
+}
+#partie1{
+  background-color: #f50bd6;
+}
+#partie2{
+  background-color: aqua;
+}
+

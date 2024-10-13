@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Inscription.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <title>Inscription</title>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="navbar col-md-10" >
+                <h1 class="logo">KEYCE_COURS HTML</h1>
+                <ul>
+                    <li><a class="lien" href="Index.html">ACCUEIL</a></li>
+                    <li><a class="lien" href="Javascript.html">JAVASCRIPT SERVICE</a></li>
+                    <li><a class="lien" href="Services.html">SERVICES</a></li>
+                    <li><a class="lien" href="Inscription.html">INSCRIPTION</a></li>
+                    <li><a class="lien" href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-md-2"></div> 
+        <div class="col-md-4" id="partie1">
+            
+            <form action="/action_page.php">
+                
+                <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input  type="text" class="form-control" placeholder="Nom d'utilisateur" name="usrnm">
+                </div>
+          
+                <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input  class="form-control"  type="text" placeholder="Email" name="email">
+                </div>
+          
+                <div class="input-container">
+                <i class="fa fa-key icon"></i>
+                <input class="form-control" type="password" placeholder="Mot de passe" name="psw">
+                </div>
+
+                <div class="input-container">
+                <i class="fa fa-key icon"></i>
+                <input class="form-control" type="text"  value="Genre"  >
+                <select>
+                    <option>Masculin</option>
+                    <option>Feminin</option>
+                </select>
+                </div>
+
+                <div class="input-container">
+                <i class="fa fa-key icon"></i>
+                <label>Etudiant </label>
+                <input type="checkbox">
+                <label>Travailleur </label>
+                <input type="checkbox">
+                </div>    
+                <button type="submit"  class="btn btn-info">VALIDER</button>
+                <button type="submit"  class="btn btn-danger">ANNULER</button>
+            </form>
+        </div>
+        <div class="col-md-4" id="partie2">
+
+        </div>
+        <div class="col-md-2"></div>  
+    </div>
+    
+        <div class="row conta " >
+            <div class="col-md-4"  >
+                CONTACT:693875857
+            </div>
+            <div class="col-md-4"  >
+                <ul id="listicones">
+                    <li><a target="_blank" href="https://www.facebook.com"><img class="icones" src="images/facebook.png" alt="facebook"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com"><img class="icones" src="images/instagram.png" alt="instagram"></a></li>
+                    <li><a target="_blank" href="https://www.twitter.com"><img class="icones" src="images/twitter.png" alt="twitter"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4"  >
+                LOCALISATION:Bonapriso Avenue de Gaulle
+            </div>
+        </div>
+    
+</body>
+</html>

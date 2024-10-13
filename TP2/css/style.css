@@ -1,0 +1,82 @@
+/*
+Auteur : Lembe
+Objet : style général du site
+date : 19.04.2024
+*/
+
+
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.lien{
+    font-family: cursive;
+}
+p{
+    font-family: monospace;
+}
+
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 800px;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 10px;
+}
+.navbar ul li .lien{
+    display : block;
+    padding: 10px;
+    text-decoration: none;
+    color: #f50bd6;
+}
+.navbar li .lien:hover{
+    background-color: black;
+}
+.navbar h1{
+    margin: 0;
+}
+
+
+#listicones li{
+    display:inline;
+    
+}
+#listicones{
+    padding: 10px 20px;
+    margin-left: 40px;
+    
+    
+}
+
+.conta{
+    background-color: #f50bd6;
+
+}
+.icones{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    
+}
+#pt1{
+    background-color: aqua;
+}
+#pt2{
+    background-color: black;
+}
+#pt3{
+    background-color: azure;
+}
+
+

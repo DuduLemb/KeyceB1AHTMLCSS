@@ -1,0 +1,59 @@
+/*
+Auteur : Lembe
+Objet : style page index
+date : 19.04.2024
+*/
+main {
+    width: 100%;
+}
+.image-container{
+    padding: 0px 0px 0px 47px;
+}
+.image-container img{
+    float:left;
+    width: 310px;
+    height: 180px;
+}
+.service1{
+    background-color: aqua;
+    display: flex;
+    width: 33%;
+    height: auto;
+    margin-top: 2%;
+    padding: 10px 20px;
+}
+.service2{
+    background-color: #f50bd6;
+    display: flex;
+    width: 33%;
+    height: auto;
+    margin-top: 2%;
+    padding: 10px 20px;
+}
+.service3{
+    background-color: aqua;
+    display: flex;
+    width: 33%;
+    height: auto;
+    margin-top: 2%;
+    padding: 10px 20px;
+}
+.service-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.but{
+    height: 20px;
+    border-radius: 14px;
+    background-color: chocolate;
+    color: azure;
+    border-color: chocolate;
+    font-family: monospace;
+    font-size: 8px;
+    
+}
+
+
